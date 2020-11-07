@@ -25,7 +25,7 @@ function setup(){
   invisibleBlockGroup = new Group();
   
   ghost = createSprite(200,200,50,50);
-  ghost.scale = 0.3;
+  ghost.scale = 0.5;
   ghost.addImage("ghost", ghostImg);
 }
 
